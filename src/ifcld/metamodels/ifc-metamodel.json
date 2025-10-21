@@ -1,0 +1,211 @@
+{
+  "@context": {
+    "ifc": "https://secorolab.github.io/metamodels/ifc/",
+    "ifc-model": "https://secorolab.github.io/models/bim_model_id/ifc/data#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "qudt-unit": "http://qudt.org/vocab/unit/",
+    "pfx": "http://qudt.org/vocab/prefix/",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "@vocab": "https://secorolab.github.io/metamodels/ifc/",
+    "objectplacement": {
+      "@type": "@id"
+    },
+    "representation": {
+      "@type": "@id"
+    },
+    "representations": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "placementrelto": {
+      "@type": "@id"
+    },
+    "relativeplacement": {
+      "@type": "@id"
+    },
+    "location": {
+      "@type": "@id"
+    },
+    "refdirection": {
+      "@type": "@id"
+    },
+    "coordinates": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "directionratios": {
+      "@type": "xsd:float",
+      "@container": "@list"
+    },
+    "items": {
+      "@type": "@id"
+    },
+    "contextofitems": {
+      "@type": "@id"
+    },
+    "position": {
+      "@type": "@id"
+    },
+    "extrudeddirection": {
+      "@type": "@id"
+    },
+    "sweptarea": {
+      "@type": "@id"
+    },
+    "axis": {
+      "@type": "@id"
+    },
+    "points": {
+      "@type": "@id"
+    },
+    "coordlist": {
+      "@container": "@list"
+    },
+    "outercurve": {
+      "@type": "@id"
+    },
+    "predefinedtype": {
+      "@type": "@id"
+    },
+    "representationmaps": {
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mappedrepresentation": {
+      "@type": "@id"
+    },
+    "mappingorigin": {
+      "@type": "@id"
+    },
+    "parentcontext": {"@type": "@id"},
+    "worldcoordinatesystem": {"@type": "@id"},
+
+
+    "mappingsource": {
+      "@id": "ifc:mappingsource",
+      "@type": "@id"
+    },
+    "mappingtarget": {
+      "@id": "ifc:mappingtarget",
+      "@type": "@id"
+    },
+    "axis1": {"@type": "@id"},
+    "axis2": {"@type": "@id"},
+    "axis3": {"@type": "@id"},
+    "localorigin": {"@type": "@id"},
+    "relatedbuildingelement": {"@type": "@id"},
+    "relatingopeningelement": {"@type": "@id"},
+    "relatedopeningelement": {"@type": "@id"},
+    "relatingbuildingelement": {"@type": "@id"},
+    "relatingtype": {"@type": "@id"},
+    "relatedobjects": { "@type": "@id"},
+    "relatingobject": {"@type": "@id"},
+
+    "faces": {
+      "@container": "@list",
+      "@type": "@id"
+    },
+    "segments": {
+      "@container": "@list"
+    },
+    "relatingpropertydefinition": {
+      "@type": "@id"
+    },
+    "haspropertysets": {
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasproperties": {
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "representationcontexts": {
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "unitsincontext": {
+      "@type": "@id"
+    },
+    "units": {
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "relatingmaterial": {"@type": "@id"},
+    "relatingspace": {"@type": "@id"},
+    "connectiongeometry": {"@type": "@id"},
+    "relatinggroup": {"@type": "@id"},
+    "quantities": {
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "materiallayers": {"@type": "@id"},
+    "forlayerset": {"@type": "@id"},
+    "materialprofiles": {"@type": "@id"},
+    "compositeprofile": {"@type": "@id"},
+    "forprofileset": {"@type": "@id"},
+    "materialconstituents": {"@type": "@id"},
+    "material": {"@type": "@id"},
+    "materials": {"@type": "@id"},
+    "styles": {"@type": "@id"},
+
+    "corner": {"@type": "@id"},
+
+    "IFCSIUNIT": {
+      "@context": {
+        "name": {"@id": "qudt:hasUnit"},
+        "unittype": {"@id": "qudt:hasQuantityKind"}
+      }
+
+    },
+
+    "NANO": "pfx:Nano",
+    "MILLI": "pfx:Milli",
+    "KILO": "pfx:Kilo",
+    "DECA": "pfx:Deca",
+    "GIGA": "pfx:Giga",
+    "ATTO": "pfx:Atto",
+    "CENTI": "pfx:Centi",
+    "PICO": "pfx:Pico",
+    "FEMTO": "pfx:Femto",
+    "DECI": "pfx:Deci",
+    "TERA": "pfx:Tera",
+    "PETA": "pfx:Peta",
+    "MICRO": "pfx:Micro",
+    "EXA": "pfx:Exa",
+    "HECTO": "pfx:Hecto",
+    "MEGA": "pfx:Mega",
+
+    "AMPERE": "qudt-unit:A",
+    "BECQUEREL": "qudt-unit:BQ",
+    "CANDELA": "qudt-unit:CD",
+    "COULOMB": "qudt-unit:C",
+    "CUBIC_METRE": "qudt-unit:M3",
+    "DEGREE_CELSIUS": "qudt-unit:DEG_C",
+    "FARAD": "qudt-unit:F",
+    "GRAM": "qudt-unit:GM",
+    "GRAY": "qudt-unit:GRAY",
+    "HENRY": "qudt-unit:H",
+    "HERTZ": "qudt-unit:HZ",
+    "JOULE": "qudt-unit:J",
+    "KELVIN": "qudt-unit:K",
+    "LUMEN": "qudt-unit:LM",
+    "LUX": "qudt-unit:LUX",
+    "METRE": "qudt-unit:M",
+    "MOLE": "qudt-unit:MOL",
+    "NEWTON": "qudt-unit:N",
+    "OHM": "qudt-unit:OHM",
+    "PASCAL": "qudt-unit:PA",
+    "RADIAN": "qudt-unit:RAD",
+    "SECOND": "qudt-unit:SEC",
+    "SIEMENS": "qudt-unit:S",
+    "SIEVERT": "qudt-unit:SV",
+    "SQUARE_METRE": "qudt-unit:M2",
+    "STERADIAN": "qudt-unit:SR",
+    "TESLA": "qudt-unit:T",
+    "VOLT": "qudt-unit:V",
+    "WATT": "qudt-unit:W",
+    "WEBER": "qudt-unit:WB"
+
+  }
+}

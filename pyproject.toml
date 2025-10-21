@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ifcld"
+description = "Model-to-model transformation between IFC and JSON-LD "
+dynamic = ["version"]
+dependencies = [
+    "click>=8.1.7"
+]
+requires-python = ">= 3.11"
+readme = "README.md"
+maintainers = [
+  {name = "SECORO Group", email = "secoro@groups.uni-bremen.de"}
+]
+
+[project.optional-dependencies]
+dev = ["black>=24.4.2"]
+
+[project.scripts]
+ifcld = "ifcld.cli:ifcld"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+
