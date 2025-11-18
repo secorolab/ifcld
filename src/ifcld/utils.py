@@ -29,3 +29,19 @@ def get_graph_dict(graph, graph_id=None, context=None):
 def save_jsonld_file(file_path, graph, context=None, graph_id=None, **kwargs):
     contents = get_graph_dict(graph, graph_id=graph_id, context=context)
     save_json(file_path, contents)
+
+
+def get_jsonld_frame(model_path, frame_path, output_path=None):
+    from pyld import jsonld
+
+    model = load_json(model_path)
+    frame = load_json(frame_path)
+
+    framed_doc = jsonld.frame(model, frame, options={"omitGraph": False})
+
+    if output_path:
+        save_json(output_path, framed_doc)
+    else:
+        print(framed_doc)
+
+    return framed_doc
