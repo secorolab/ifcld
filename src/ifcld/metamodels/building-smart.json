@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "ifc-class": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/",
+    "ifc-prop": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/",
+    "@vocab": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/"
+  }
+}

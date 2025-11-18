@@ -29,9 +29,22 @@
     "refdirection": {
       "@type": "@id"
     },
-    "coordinates": {
-      "@type": "@id",
-      "@container": "@list"
+    "IFCPOLYGONALFACESET": {
+      "@id": "ifc:IFCPOLYGONALFACESET",
+      "@context": {
+        "coordinates": {
+          "@type": "@id"
+        }
+      }
+    },
+    "IFCCARTESIANPOINT": {
+      "@id": "ifc:IFCCARTESIANPOINT",
+      "@context": {
+        "coordinates": {
+          "@type": "xsd:float",
+          "@container": "@list"
+        }
+      }
     },
     "directionratios": {
       "@type": "xsd:float",

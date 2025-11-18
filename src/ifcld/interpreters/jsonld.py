@@ -78,7 +78,7 @@ class SimpleEntity:
     def to_json(self, graph):
         entity = {
             "@id": nm.curie(IFC_MODEL[self.ref[1:]]),
-            "@type": nm.curie(IFC_CONCEPTS[self.type_name]),
+            "@type": self.type_name,
         }
 
         offsets = OFFSETS[self.type_name.lower()]
