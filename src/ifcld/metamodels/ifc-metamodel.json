@@ -114,6 +114,9 @@
     "relatedobjects": { "@type": "@id"},
     "relatingobject": {"@type": "@id"},
 
+    "coordindex": {
+      "@container": "@list"
+    },
     "faces": {
       "@container": "@list",
       "@type": "@id"
@@ -151,6 +154,10 @@
       "@type": "@id",
       "@container": "@set"
     },
+
+    "surfaceonrelatingelement": {"@type": "@id"},
+    "basissurface": {"@type": "@id"},
+    "outerboundary": {"@type": "@id"},
 
     "materiallayers": {"@type": "@id"},
     "forlayerset": {"@type": "@id"},
