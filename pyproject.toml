@@ -7,6 +7,7 @@ name = "ifcld"
 description = "Model-to-model transformation between IFC and JSON-LD "
 dynamic = ["version"]
 dependencies = [
+    "Jinja2>=3.0.3",
     "click>=8.1.7",
     "ply>=3.11",
     "rdflib@git+https://github.com/secorolab/rdflib@fix/multi-type-scoped-context",
