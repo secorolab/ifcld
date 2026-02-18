@@ -1,12 +1,18 @@
 {
   "@context": {
     "ifc": "https://secorolab.github.io/metamodels/ifc/",
+    "step": "https://secorolab.github.io/metamodels/step/",
     "ifc-model": "https://secorolab.github.io/models/bim_model_id/ifc/data#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "qudt-unit": "http://qudt.org/vocab/unit/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
     "pfx": "http://qudt.org/vocab/prefix/",
     "qudt": "http://qudt.org/schema/qudt/",
+    "dcterms": "http://purl.org/dc/terms/",
     "@vocab": "https://secorolab.github.io/metamodels/ifc/",
+
+    "globalid": {"@type": "dcterms:identifier"},
+    "description": "dcterms:description",
     "objectplacement": {
       "@type": "@id"
     },
@@ -110,6 +116,8 @@
     "relatingopeningelement": {"@type": "@id"},
     "relatedopeningelement": {"@type": "@id"},
     "relatingbuildingelement": {"@type": "@id"},
+    "relatingstructure": {"@type": "@id"},
+    "relatedelements": {"@type": "@id"},
     "relatingtype": {"@type": "@id"},
     "relatedobjects": { "@type": "@id"},
     "relatingobject": {"@type": "@id"},
@@ -169,63 +177,75 @@
     "materials": {"@type": "@id"},
     "styles": {"@type": "@id"},
 
+    "outer": {"@type": "@id"},
+    "cfsfaces": {"@type": "@id"},
+    "bounds": {"@type": "@id"},
+    "bound": {"@type": "@id"},
+    "polygon": {"@type":  "@id", "@container": "@list"},
+
+    "firstoperand": {"@type": "@id"},
+    "secondoperand": {"@type": "@id"},
+    "basesurface": {"@type": "@id"},
+    "polygonalboundary": {"@type": "@id"},
+
+
     "corner": {"@type": "@id"},
+    "partofproductdefinitionshape": {"@type":  "@id"},
+    "shaperepresentations": {"@type":  "@id", "@container": "@list"},
+    "unitcomponent": {"@type": "@id"},
 
     "IFCSIUNIT": {
+      "@id": "ifc:IFCSIUNIT",
       "@context": {
-        "name": {"@id": "qudt:hasUnit"},
-        "unittype": {"@id": "qudt:hasQuantityKind"}
+        "name": {
+          "@id": "qudt:hasUnit",
+          "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/unit/"
+          }
+        },
+        "unittype": {
+          "@id": "qudt:hasQuantityKind",
+          "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/quantitykind/"
+          }
+        },
+        "prefix": {
+          "@id": "qudt:prefix", "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/prefix/"
+          }
+        }
       }
-
     },
-
-    "NANO": "pfx:Nano",
-    "MILLI": "pfx:Milli",
-    "KILO": "pfx:Kilo",
-    "DECA": "pfx:Deca",
-    "GIGA": "pfx:Giga",
-    "ATTO": "pfx:Atto",
-    "CENTI": "pfx:Centi",
-    "PICO": "pfx:Pico",
-    "FEMTO": "pfx:Femto",
-    "DECI": "pfx:Deci",
-    "TERA": "pfx:Tera",
-    "PETA": "pfx:Peta",
-    "MICRO": "pfx:Micro",
-    "EXA": "pfx:Exa",
-    "HECTO": "pfx:Hecto",
-    "MEGA": "pfx:Mega",
-
-    "AMPERE": "qudt-unit:A",
-    "BECQUEREL": "qudt-unit:BQ",
-    "CANDELA": "qudt-unit:CD",
-    "COULOMB": "qudt-unit:C",
-    "CUBIC_METRE": "qudt-unit:M3",
-    "DEGREE_CELSIUS": "qudt-unit:DEG_C",
-    "FARAD": "qudt-unit:F",
-    "GRAM": "qudt-unit:GM",
-    "GRAY": "qudt-unit:GRAY",
-    "HENRY": "qudt-unit:H",
-    "HERTZ": "qudt-unit:HZ",
-    "JOULE": "qudt-unit:J",
-    "KELVIN": "qudt-unit:K",
-    "LUMEN": "qudt-unit:LM",
-    "LUX": "qudt-unit:LUX",
-    "METRE": "qudt-unit:M",
-    "MOLE": "qudt-unit:MOL",
-    "NEWTON": "qudt-unit:N",
-    "OHM": "qudt-unit:OHM",
-    "PASCAL": "qudt-unit:PA",
-    "RADIAN": "qudt-unit:RAD",
-    "SECOND": "qudt-unit:SEC",
-    "SIEMENS": "qudt-unit:S",
-    "SIEVERT": "qudt-unit:SV",
-    "SQUARE_METRE": "qudt-unit:M2",
-    "STERADIAN": "qudt-unit:SR",
-    "TESLA": "qudt-unit:T",
-    "VOLT": "qudt-unit:V",
-    "WATT": "qudt-unit:W",
-    "WEBER": "qudt-unit:WB"
-
+    "IFCCONVERSIONBASEDUNIT": {
+      "@context": {
+        "name": {
+          "@id": "qudt:hasUnit",
+          "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/unit/"
+          }
+        },
+        "unittype": {
+          "@id": "qudt:hasQuantityKind",
+          "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/quantitykind/"
+          }
+        },
+        "prefix": {
+          "@id": "qudt:prefix", "@type": "@id",
+          "@context": {
+            "@base": "http://qudt.org/vocab/prefix/"
+          }
+        },
+        "conversionfactor": {
+          "@id": "qudt:conversionMultiplier",
+          "@type": "@id"
+        }
+      }
+    }
   }
 }
