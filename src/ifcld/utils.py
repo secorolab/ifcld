@@ -16,13 +16,17 @@ def save_json(file_path, data):
 
 
 def get_graph_dict(graph, graph_id=None, context=None):
+    contents = dict()
     if context is None:
-        context = {"@context": {}}
-    contents = dict(**context)
+        contents["@context"] = {}
+    else:
+        contents["@context"] = context
 
     if graph_id:
         contents["@id"] = graph_id
-    contents["@graph"] = graph
+
+    if isinstance(graph, list):
+        contents["@graph"] = graph
     return contents
 
 
