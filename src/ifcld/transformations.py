@@ -17,7 +17,6 @@ def get_jsonld_interpretation(file_path):
 
 def load_context(model_name, context_path=None):
     if context_path is None:
-
         context = dict(**METAMODEL)
     else:
         context = load_json(context_path)

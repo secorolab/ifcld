@@ -211,7 +211,6 @@ class TypedParameter:
 
 
 class ParamList:
-
     @classmethod
     def to_json(cls, param, param_name):
 
