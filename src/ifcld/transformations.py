@@ -1,5 +1,6 @@
 import os
 
+from pyld import jsonld
 from ifcld.interpreters.jsonld import Interpreter
 from ifcld.utils import save_jsonld_file, load_json
 from ifcld.metamodels import PROV_METAMODEL, METAMODEL
@@ -36,14 +37,24 @@ def transform_ifc_to_jsonld(model_path, output_dir, file_name=None, save_prov=Fa
     context = load_context(model_name)
 
     # ifc_model.pop(0)
+    ifc_model_compact = jsonld.compact(
+        ifc_model,
+        context.get("@context"),
+        {
+            "expandContext": context.get("@context"),
+        },
+    )
+
+    model = ifc_model_compact.get("@graph")
+    ctx = ifc_model_compact.get("@context")
 
     if file_name is None:
         file_name = "{}.ifc.json".format(model_name)
 
     save_jsonld_file(
         os.path.join(output_dir, file_name),
-        ifc_model,
-        context=context,
+        model,
+        context=ctx,
         # graph_id="model:ifc",
     )
 
