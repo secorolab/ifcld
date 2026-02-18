@@ -11,6 +11,13 @@ from ifcld.interpreters.namespaces import (
     IFC_CLASS,
     IFC_PROP,
     namespace_manager as nm,
+    UNIT_TYPES,
+    QUDT_QUANT,
+    UNITS,
+    PREFIXES,
+    QUDT_SCHEMA,
+    QUDT_UNIT,
+    QUDT_PREFIX,
 )
 
 
@@ -100,7 +107,29 @@ class SimpleEntity:
                 entity[param_name] = value_list
             else:
                 entity[param_name] = SimpleParameter.to_json(param)
+
+        if self.type_name in ["IFCSIUNIT", "IFCCONVERSIONBASEDUNIT"]:
+            UnitEntity.transform_to_qudt(entity)
         graph.append(entity)
+
+
+class UnitEntity:
+    @staticmethod
+    def to_json(params, offsets):
+        pass
+
+    @staticmethod
+    def transform_to_qudt(entity):
+        unit_type = entity["unittype"]
+        entity["unittype"] = QUDT_QUANT[UNIT_TYPES[unit_type]]
+        prefix = entity.get("prefix")
+        name = entity.get("name").upper()
+        if prefix is not None:
+            entity["prefix"] = QUDT_PREFIX[PREFIXES[prefix]]
+            entity[QUDT_SCHEMA["scalingOf"]] = QUDT_UNIT[UNITS[name]]
+            entity["name"] = QUDT_UNIT[prefix.capitalize() + UNITS[name]]
+        else:
+            entity["name"] = QUDT_UNIT[UNITS[name]]
 
 
 class ComplexEntity:
@@ -112,29 +141,73 @@ class ComplexEntity:
 class TypedParameter:
     @staticmethod
     def to_json(self, debug=False):
-        if self.type_name in ["IFCREAL", "IFCLABEL", "IFCBOOLEAN", "IFCINTEGER"]:
+        if self.type_name == "IFCREAL":
             assert len(self.params) == 1
             param = SimpleParameter.to_json(self.params[0])
-            return {self.type_name: param}
+            return {"@value": param, "@type": "xsd:double"}
+        elif self.type_name == "IFCBOOLEAN":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:boolean"}
+        elif self.type_name == "IFCLOGICAL":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            if isinstance(param, str):
+                param_type = "xsd:string"
+            else:
+                param_type = "xsd:boolean"
+            return {"@value": param, "@type": param_type}
+        elif self.type_name in ["IFCINTEGER", "IFCPOSITIVEINTEGER"]:
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:integer"}
+        elif self.type_name in ["IFCLABEL"]:
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "rdfs:label"}
         elif self.type_name == "IFCTIMESTAMP":
             assert len(self.params) == 1
             param = SimpleParameter.to_json(self.params[0])
             return {self.type_name: param}
+        elif self.type_name == "IFCDURATION":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:duration"}
+        elif self.type_name == "IFCDATETIME":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:dateTime"}
+        elif self.type_name == "IFCDATE":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:date"}
+        elif self.type_name == "IFCTIME":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:time"}
         elif self.type_name == "IFCIDENTIFIER":
             assert len(self.params) == 1
             param = SimpleParameter.to_json(self.params[0])
-            return {self.type_name: param}
+            return {"@value": param, "@type": "dcterms:identifier"}
+        elif self.type_name == "IFCTEXT":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "xsd:string"}
         elif self.type_name in MEASURES:
             assert len(self.params) == 1
             param = SimpleParameter.to_json(self.params[0])
-            return {self.type_name: param}
-
-        param_t = {self.type_name: self.params}
-        if debug:
-            print(self.type_name)
-            for param in self.params:
-                print("\t", param, type(param))
-        return param_t
+            return {"@value": param, "@type": QUDT_QUANT[self.type_name]}
+        elif self.type_name == "IFCURIREFERENCE":
+            assert len(self.params) == 1
+            param = SimpleParameter.to_json(self.params[0])
+            return {"@value": param, "@type": "@id"}
+        else:
+            param_t = {self.type_name: self.params}
+            if debug:
+                print(self.type_name)
+                for param in self.params:
+                    print("\t", param, type(param))
+            return param_t
 
 
 class ParamList:
@@ -166,7 +239,10 @@ class SimpleParameter(IfcSimpleParam):
                     return False
             elif cls.is_enum(param):
                 # TODO Check later if this might be worth converting to a separate node in the graph (e.g. as @type)
-                value = param[1:-1]
+                if param == ".U.":
+                    value = "UNKNOWN"
+                else:
+                    value = param[1:-1]
             else:
                 value = param
             return value
