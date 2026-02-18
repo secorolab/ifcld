@@ -1,15 +1,10 @@
-import json
-
 from ifcld.parsers.p21 import Part21 as p21
 from ifcld.parsers.ifc import OFFSETS, ORDERED
 
 from ifcld.interpreters.params import Param as IfcSimpleParam
 from ifcld.interpreters.namespaces import (
     IFC_MODEL,
-    IFC_CONCEPTS,
     MEASURES,
-    IFC_CLASS,
-    IFC_PROP,
     namespace_manager as nm,
     UNIT_TYPES,
     QUDT_QUANT,
