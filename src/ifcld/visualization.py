@@ -75,13 +75,6 @@ def visualize_spatial_decomposition(model_path, **kwargs):
     ]
     for r in qres:
         d = r.asdict()
-        cont_res = g.query(spatial_containment, initBindings={"element": d["child"]})
-        if len(cont_res) == 0:
-            contains = []
-        else:
-            contains = [
-                (simplify_node_name(c), simplify_node_name(t)) for c, t in cont_res
-            ]
         d = {k: simplify_node_name(v) for k, v in d.items()}
         if d.get("child_type") not in spatial_elements:
             continue
