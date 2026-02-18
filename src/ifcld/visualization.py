@@ -4,7 +4,7 @@ import subprocess
 from jinja2 import Environment, BaseLoader
 from rdflib import Graph
 
-from ifcld.query import full_project_spatial_decomposition, spatial_containment
+from ifcld.query import full_project_spatial_decomposition
 
 TEMPLATE = """
 digraph G {
