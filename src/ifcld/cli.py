@@ -29,6 +29,10 @@ def ifcld():
 def transform(model_path, output_path):
     """CLI for the ifcld transformations"""
 
+    print(f"Transforming model {model_path}...")
+
+    if not os.path.exists(output_path):
+        os.mkdir(output_path)
     transform_ifc_to_jsonld(model_path, output_path)
 
 
