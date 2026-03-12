@@ -29,6 +29,9 @@ ifcld = "ifcld.cli:ifcld"
 [tool.setuptools.packages.find]
 where = ["src"]  # list of folders that contain the packages (["."] by default)
 
+[tool.setuptools.package-data]
+"*" = ["*.json"]
+
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
 exclude = [

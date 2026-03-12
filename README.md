@@ -35,4 +35,4 @@ This project has some key conceptual and implementation differences from the [if
 
 This project is based on the work of Devon Sparks (devonsparks.com), especially the [ifcld-service](https://github.com/devonsparks/ifcld-service) project.
 The [P21 parser](src/ifcld/parsers/p21) is taken directly and used without modification from its original authors.
-For now, we also use the unmodified versions of the [offsets](https://ifc-ld.org/schemas/ifc4.offsets.json) and [ordered](https://ifc-ld.org/schemas/ifc4.ordered.json) data structures of the [ifc-ld 2.0 schema](https://ifc-ld.org/releases/0.2/spec.html) for parsing (see [parsers/ifc](src/ifcld/parsers/ifc)).
+For now, we also use slightly modified versions of the [offsets](https://ifc-ld.org/schemas/ifc4.offsets.json) and [ordered](https://ifc-ld.org/schemas/ifc4.ordered.json) data structures of the [ifc-ld 2.0 schema](https://ifc-ld.org/releases/0.2/spec.html) for parsing (see [parsers/ifc](src/ifcld/parsers/ifc)).

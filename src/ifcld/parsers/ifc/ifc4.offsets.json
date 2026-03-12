@@ -1,0 +1,6776 @@
+{
+    "ifcactionrequest": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "predefinedtype",
+        "status",
+        "longdescription"
+    ],
+    "ifcactor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "theactor"
+    ],
+    "ifcactorrole": [
+        "role",
+        "userdefinedrole",
+        "description"
+    ],
+    "ifcactuator": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcactuatortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcaddress": [
+        "purpose",
+        "description",
+        "userdefinedpurpose"
+    ],
+    "ifcadvancedbrep": [
+        "outer"
+    ],
+    "ifcadvancedbrepwithvoids": [
+        "outer",
+        "voids"
+    ],
+    "ifcadvancedface": [
+        "bounds",
+        "facesurface",
+        "samesense"
+    ],
+    "ifcairterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcairterminalbox": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcairterminalboxtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcairterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcairtoairheatrecovery": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcairtoairheatrecoverytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcalarm": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcalarmtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcannotation": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation"
+    ],
+    "ifcannotationfillarea": [
+        "outerboundary",
+        "innerboundaries"
+    ],
+    "ifcapplication": [
+        "applicationdeveloper",
+        "version",
+        "applicationfullname",
+        "applicationidentifier"
+    ],
+    "ifcappliedvalue": [
+        "name",
+        "description",
+        "appliedvalue",
+        "unitbasis",
+        "applicabledate",
+        "fixeduntildate",
+        "category",
+        "condition",
+        "arithmeticoperator",
+        "components"
+    ],
+    "ifcapproval": [
+        "identifier",
+        "name",
+        "description",
+        "timeofapproval",
+        "status",
+        "level",
+        "qualifier",
+        "requestingapproval",
+        "givingapproval"
+    ],
+    "ifcapprovalrelationship": [
+        "name",
+        "description",
+        "relatingapproval",
+        "relatedapprovals"
+    ],
+    "ifcarbitraryclosedprofiledef": [
+        "profiletype",
+        "profilename",
+        "outercurve"
+    ],
+    "ifcarbitraryopenprofiledef": [
+        "profiletype",
+        "profilename",
+        "curve"
+    ],
+    "ifcarbitraryprofiledefwithvoids": [
+        "profiletype",
+        "profilename",
+        "outercurve",
+        "innercurves"
+    ],
+    "ifcasset": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "originalvalue",
+        "currentvalue",
+        "totalreplacementcost",
+        "owner",
+        "user",
+        "responsibleperson",
+        "incorporationdate",
+        "depreciatedvalue"
+    ],
+    "ifcasymmetricishapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "bottomflangewidth",
+        "overalldepth",
+        "webthickness",
+        "bottomflangethickness",
+        "bottomflangefilletradius",
+        "topflangewidth",
+        "topflangethickness",
+        "topflangefilletradius",
+        "bottomflangeedgeradius",
+        "bottomflangeslope",
+        "topflangeedgeradius",
+        "topflangeslope"
+    ],
+    "ifcaudiovisualappliance": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcaudiovisualappliancetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcaxis1placement": [
+        "location",
+        "axis"
+    ],
+    "ifcaxis2placement2d": [
+        "location",
+        "refdirection"
+    ],
+    "ifcaxis2placement3d": [
+        "location",
+        "axis",
+        "refdirection"
+    ],
+    "ifcbeam": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcbeamstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcbeamtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcblobtexture": [
+        "repeats",
+        "repeatt",
+        "mode",
+        "texturetransform",
+        "parameter",
+        "rasterformat",
+        "rastercode"
+    ],
+    "ifcblock": [
+        "position",
+        "xlength",
+        "ylength",
+        "zlength"
+    ],
+    "ifcboiler": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcboilertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcbooleanclippingresult": [
+        "operator",
+        "firstoperand",
+        "secondoperand"
+    ],
+    "ifcbooleanresult": [
+        "operator",
+        "firstoperand",
+        "secondoperand"
+    ],
+    "ifcboundarycondition": [
+        "name"
+    ],
+    "ifcboundarycurve": [
+        "segments",
+        "selfintersect"
+    ],
+    "ifcboundaryedgecondition": [
+        "name",
+        "translationalstiffnessbylengthx",
+        "translationalstiffnessbylengthy",
+        "translationalstiffnessbylengthz",
+        "rotationalstiffnessbylengthx",
+        "rotationalstiffnessbylengthy",
+        "rotationalstiffnessbylengthz"
+    ],
+    "ifcboundaryfacecondition": [
+        "name",
+        "translationalstiffnessbyareax",
+        "translationalstiffnessbyareay",
+        "translationalstiffnessbyareaz"
+    ],
+    "ifcboundarynodecondition": [
+        "name",
+        "translationalstiffnessx",
+        "translationalstiffnessy",
+        "translationalstiffnessz",
+        "rotationalstiffnessx",
+        "rotationalstiffnessy",
+        "rotationalstiffnessz"
+    ],
+    "ifcboundarynodeconditionwarping": [
+        "name",
+        "translationalstiffnessx",
+        "translationalstiffnessy",
+        "translationalstiffnessz",
+        "rotationalstiffnessx",
+        "rotationalstiffnessy",
+        "rotationalstiffnessz",
+        "warpingstiffness"
+    ],
+    "ifcboundingbox": [
+        "corner",
+        "xdim",
+        "ydim",
+        "zdim"
+    ],
+    "ifcboxedhalfspace": [
+        "basesurface",
+        "agreementflag",
+        "enclosure"
+    ],
+    "ifcbsplinecurve": [
+        "degree",
+        "controlpointslist",
+        "curveform",
+        "closedcurve",
+        "selfintersect"
+    ],
+    "ifcbsplinecurvewithknots": [
+        "degree",
+        "controlpointslist",
+        "curveform",
+        "closedcurve",
+        "selfintersect",
+        "knotmultiplicities",
+        "knots",
+        "knotspec"
+    ],
+    "ifcbsplinesurface": [
+        "udegree",
+        "vdegree",
+        "controlpointslist",
+        "surfaceform",
+        "uclosed",
+        "vclosed",
+        "selfintersect"
+    ],
+    "ifcbsplinesurfacewithknots": [
+        "udegree",
+        "vdegree",
+        "controlpointslist",
+        "surfaceform",
+        "uclosed",
+        "vclosed",
+        "selfintersect",
+        "umultiplicities",
+        "vmultiplicities",
+        "uknots",
+        "vknots",
+        "knotspec"
+    ],
+    "ifcbuilding": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "compositiontype",
+        "elevationofrefheight",
+        "elevationofterrain",
+        "buildingaddress"
+    ],
+    "ifcbuildingelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcbuildingelementpart": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcbuildingelementparttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcbuildingelementproxy": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcbuildingelementproxytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcbuildingelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcbuildingstorey": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "compositiontype",
+        "elevation"
+    ],
+    "ifcbuildingsystem": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "predefinedtype",
+        "longname"
+    ],
+    "ifcburner": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcburnertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccablecarrierfitting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccablecarrierfittingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccablecarriersegment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccablecarriersegmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccablefitting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccablefittingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccablesegment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccablesegmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccartesianpoint": [
+        "coordinates"
+    ],
+    "ifccartesianpointlist2d": [
+        "coordlist"
+    ],
+    "ifccartesianpointlist3d": [
+        "coordlist"
+    ],
+    "ifccartesiantransformationoperator": [
+        "axis1",
+        "axis2",
+        "localorigin",
+        "scale"
+    ],
+    "ifccartesiantransformationoperator2d": [
+        "axis1",
+        "axis2",
+        "localorigin",
+        "scale"
+    ],
+    "ifccartesiantransformationoperator2dnonuniform": [
+        "axis1",
+        "axis2",
+        "localorigin",
+        "scale",
+        "scale2"
+    ],
+    "ifccartesiantransformationoperator3d": [
+        "axis1",
+        "axis2",
+        "localorigin",
+        "scale",
+        "axis3"
+    ],
+    "ifccartesiantransformationoperator3dnonuniform": [
+        "axis1",
+        "axis2",
+        "localorigin",
+        "scale",
+        "axis3",
+        "scale2",
+        "scale3"
+    ],
+    "ifccenterlineprofiledef": [
+        "profiletype",
+        "profilename",
+        "curve",
+        "thickness"
+    ],
+    "ifcchiller": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcchillertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcchimney": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcchimneytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccircle": [
+        "position",
+        "radius"
+    ],
+    "ifccirclehollowprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "radius",
+        "wallthickness"
+    ],
+    "ifccircleprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "radius"
+    ],
+    "ifccivilelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifccivilelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcclassification": [
+        "source",
+        "edition",
+        "editiondate",
+        "name",
+        "description",
+        "location",
+        "referencetokens"
+    ],
+    "ifcclassificationreference": [
+        "location",
+        "identification",
+        "name",
+        "referencedsource",
+        "description",
+        "sort"
+    ],
+    "ifcclosedshell": [
+        "cfsfaces"
+    ],
+    "ifccoil": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccoiltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccolourrgb": [
+        "name",
+        "red",
+        "green",
+        "blue"
+    ],
+    "ifccolourrgblist": [
+        "colourlist"
+    ],
+    "ifccolourspecification": [
+        "name"
+    ],
+    "ifccolumn": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccolumnstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccolumntype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccommunicationsappliance": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccommunicationsappliancetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccomplexproperty": [
+        "name",
+        "description",
+        "usagename",
+        "hasproperties"
+    ],
+    "ifccomplexpropertytemplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "usagename",
+        "templatetype",
+        "haspropertytemplates"
+    ],
+    "ifccompositecurve": [
+        "segments",
+        "selfintersect"
+    ],
+    "ifccompositecurveonsurface": [
+        "segments",
+        "selfintersect"
+    ],
+    "ifccompositecurvesegment": [
+        "transition",
+        "samesense",
+        "parentcurve"
+    ],
+    "ifccompositeprofiledef": [
+        "profiletype",
+        "profilename",
+        "profiles",
+        "label"
+    ],
+    "ifccompressor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccompressortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccondenser": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccondensertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcconic": [
+        "position"
+    ],
+    "ifcconnectedfaceset": [
+        "cfsfaces"
+    ],
+    "ifcconnectioncurvegeometry": [
+        "curveonrelatingelement",
+        "curveonrelatedelement"
+    ],
+    "ifcconnectionpointeccentricity": [
+        "pointonrelatingelement",
+        "pointonrelatedelement",
+        "eccentricityinx",
+        "eccentricityiny",
+        "eccentricityinz"
+    ],
+    "ifcconnectionpointgeometry": [
+        "pointonrelatingelement",
+        "pointonrelatedelement"
+    ],
+    "ifcconnectionsurfacegeometry": [
+        "surfaceonrelatingelement",
+        "surfaceonrelatedelement"
+    ],
+    "ifcconnectionvolumegeometry": [
+        "volumeonrelatingelement",
+        "volumeonrelatedelement"
+    ],
+    "ifcconstraint": [
+        "name",
+        "description",
+        "constraintgrade",
+        "constraintsource",
+        "creatingactor",
+        "creationtime",
+        "userdefinedgrade"
+    ],
+    "ifcconstructionequipmentresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionequipmentresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionmaterialresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionmaterialresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionproductresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionproductresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcconstructionresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity"
+    ],
+    "ifcconstructionresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity"
+    ],
+    "ifccontext": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname",
+        "phase",
+        "representationcontexts",
+        "unitsincontext"
+    ],
+    "ifccontextdependentunit": [
+        "dimensions",
+        "unittype",
+        "name"
+    ],
+    "ifccontrol": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification"
+    ],
+    "ifccontroller": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccontrollertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcconversionbasedunit": [
+        "dimensions",
+        "unittype",
+        "name",
+        "conversionfactor"
+    ],
+    "ifcconversionbasedunitwithoffset": [
+        "dimensions",
+        "unittype",
+        "name",
+        "conversionfactor",
+        "conversionoffset"
+    ],
+    "ifccooledbeam": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccooledbeamtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccoolingtower": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccoolingtowertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccoordinateoperation": [
+        "sourcecrs",
+        "targetcrs"
+    ],
+    "ifccoordinatereferencesystem": [
+        "name",
+        "description",
+        "geodeticdatum",
+        "verticaldatum"
+    ],
+    "ifccostitem": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "predefinedtype",
+        "costvalues",
+        "costquantities"
+    ],
+    "ifccostschedule": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "predefinedtype",
+        "status",
+        "submittedon",
+        "updatedate"
+    ],
+    "ifccostvalue": [
+        "name",
+        "description",
+        "appliedvalue",
+        "unitbasis",
+        "applicabledate",
+        "fixeduntildate",
+        "category",
+        "condition",
+        "arithmeticoperator",
+        "components"
+    ],
+    "ifccovering": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccoveringtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccrewresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifccrewresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifccsgprimitive3d": [
+        "position"
+    ],
+    "ifccsgsolid": [
+        "treerootexpression"
+    ],
+    "ifccshapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "depth",
+        "width",
+        "wallthickness",
+        "girth",
+        "internalfilletradius"
+    ],
+    "ifccurrencyrelationship": [
+        "name",
+        "description",
+        "relatingmonetaryunit",
+        "relatedmonetaryunit",
+        "exchangerate",
+        "ratedatetime",
+        "ratesource"
+    ],
+    "ifccurtainwall": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifccurtainwalltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifccurveboundedplane": [
+        "basissurface",
+        "outerboundary",
+        "innerboundaries"
+    ],
+    "ifccurveboundedsurface": [
+        "basissurface",
+        "boundaries",
+        "implicitouter"
+    ],
+    "ifccurvestyle": [
+        "name",
+        "curvefont",
+        "curvewidth",
+        "curvecolour",
+        "modelordraughting"
+    ],
+    "ifccurvestylefont": [
+        "name",
+        "patternlist"
+    ],
+    "ifccurvestylefontandscaling": [
+        "name",
+        "curvefont",
+        "curvefontscaling"
+    ],
+    "ifccurvestylefontpattern": [
+        "visiblesegmentlength",
+        "invisiblesegmentlength"
+    ],
+    "ifccylindricalsurface": [
+        "position",
+        "radius"
+    ],
+    "ifcdamper": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcdampertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcderivedprofiledef": [
+        "profiletype",
+        "profilename",
+        "parentprofile",
+        "operator",
+        "label"
+    ],
+    "ifcderivedunit": [
+        "elements",
+        "unittype",
+        "userdefinedtype"
+    ],
+    "ifcderivedunitelement": [
+        "unit",
+        "exponent"
+    ],
+    "ifcdimensionalexponents": [
+        "lengthexponent",
+        "massexponent",
+        "timeexponent",
+        "electriccurrentexponent",
+        "thermodynamictemperatureexponent",
+        "amountofsubstanceexponent",
+        "luminousintensityexponent"
+    ],
+    "ifcdirection": [
+        "directionratios"
+    ],
+    "ifcdiscreteaccessory": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcdiscreteaccessorytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcdistributionchamberelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcdistributionchamberelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcdistributioncircuit": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname",
+        "predefinedtype"
+    ],
+    "ifcdistributioncontrolelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcdistributioncontrolelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcdistributionelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcdistributionelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcdistributionflowelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcdistributionflowelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcdistributionport": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "flowdirection",
+        "predefinedtype",
+        "systemtype"
+    ],
+    "ifcdistributionsystem": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname",
+        "predefinedtype"
+    ],
+    "ifcdocumentinformation": [
+        "identification",
+        "name",
+        "description",
+        "location",
+        "purpose",
+        "intendeduse",
+        "scope",
+        "revision",
+        "documentowner",
+        "editors",
+        "creationtime",
+        "lastrevisiontime",
+        "electronicformat",
+        "validfrom",
+        "validuntil",
+        "confidentiality",
+        "status"
+    ],
+    "ifcdocumentinformationrelationship": [
+        "name",
+        "description",
+        "relatingdocument",
+        "relateddocuments",
+        "relationshiptype"
+    ],
+    "ifcdocumentreference": [
+        "location",
+        "identification",
+        "name",
+        "description",
+        "referenceddocument"
+    ],
+    "ifcdoor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "overallheight",
+        "overallwidth",
+        "predefinedtype",
+        "operationtype",
+        "userdefinedoperationtype"
+    ],
+    "ifcdoorliningproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "liningdepth",
+        "liningthickness",
+        "thresholddepth",
+        "thresholdthickness",
+        "transomthickness",
+        "transomoffset",
+        "liningoffset",
+        "thresholdoffset",
+        "casingthickness",
+        "casingdepth",
+        "shapeaspectstyle",
+        "liningtopaneloffsetx",
+        "liningtopaneloffsety"
+    ],
+    "ifcdoorpanelproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "paneldepth",
+        "paneloperation",
+        "panelwidth",
+        "panelposition",
+        "shapeaspectstyle"
+    ],
+    "ifcdoorstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "overallheight",
+        "overallwidth",
+        "predefinedtype",
+        "operationtype",
+        "userdefinedoperationtype"
+    ],
+    "ifcdoorstyle": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "operationtype",
+        "constructiontype",
+        "parametertakesprecedence",
+        "sizeable"
+    ],
+    "ifcdoortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "operationtype",
+        "parametertakesprecedence",
+        "userdefinedoperationtype"
+    ],
+    "ifcdraughtingpredefinedcolour": [
+        "name"
+    ],
+    "ifcdraughtingpredefinedcurvefont": [
+        "name"
+    ],
+    "ifcductfitting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcductfittingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcductsegment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcductsegmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcductsilencer": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcductsilencertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcedge": [
+        "edgestart",
+        "edgeend"
+    ],
+    "ifcedgecurve": [
+        "edgestart",
+        "edgeend",
+        "edgegeometry",
+        "samesense"
+    ],
+    "ifcedgeloop": [
+        "edgelist"
+    ],
+    "ifcelectricappliance": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectricappliancetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelectricdistributionboard": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectricdistributionboardtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelectricflowstoragedevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectricflowstoragedevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelectricgenerator": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectricgeneratortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelectricmotor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectricmotortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelectrictimecontrol": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcelectrictimecontroltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcelementarysurface": [
+        "position"
+    ],
+    "ifcelementassembly": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "assemblyplace",
+        "predefinedtype"
+    ],
+    "ifcelementassemblytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcelementcomponent": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcelementcomponenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcelementquantity": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "methodofmeasurement",
+        "quantities"
+    ],
+    "ifcelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcellipse": [
+        "position",
+        "semiaxis1",
+        "semiaxis2"
+    ],
+    "ifcellipseprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "semiaxis1",
+        "semiaxis2"
+    ],
+    "ifcenergyconversiondevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcenergyconversiondevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcengine": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcenginetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcevaporativecooler": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcevaporativecoolertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcevaporator": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcevaporatortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcevent": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "predefinedtype",
+        "eventtriggertype",
+        "userdefinedeventtriggertype",
+        "eventoccurencetime"
+    ],
+    "ifceventtime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "actualdate",
+        "earlydate",
+        "latedate",
+        "scheduledate"
+    ],
+    "ifceventtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "processtype",
+        "predefinedtype",
+        "eventtriggertype",
+        "userdefinedeventtriggertype"
+    ],
+    "ifcextendedproperties": [
+        "name",
+        "description",
+        "properties"
+    ],
+    "ifcexternallydefinedhatchstyle": [
+        "location",
+        "identification",
+        "name"
+    ],
+    "ifcexternallydefinedsurfacestyle": [
+        "location",
+        "identification",
+        "name"
+    ],
+    "ifcexternallydefinedtextfont": [
+        "location",
+        "identification",
+        "name"
+    ],
+    "ifcexternalreference": [
+        "location",
+        "identification",
+        "name"
+    ],
+    "ifcexternalreferencerelationship": [
+        "name",
+        "description",
+        "relatingreference",
+        "relatedresourceobjects"
+    ],
+    "ifcexternalspatialelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "predefinedtype"
+    ],
+    "ifcexternalspatialstructureelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname"
+    ],
+    "ifcextrudedareasolid": [
+        "sweptarea",
+        "position",
+        "extrudeddirection",
+        "depth"
+    ],
+    "ifcextrudedareasolidtapered": [
+        "sweptarea",
+        "position",
+        "extrudeddirection",
+        "depth",
+        "endsweptarea"
+    ],
+    "ifcface": [
+        "bounds"
+    ],
+    "ifcfacebasedsurfacemodel": [
+        "fbsmfaces"
+    ],
+    "ifcfacebound": [
+        "bound",
+        "orientation"
+    ],
+    "ifcfaceouterbound": [
+        "bound",
+        "orientation"
+    ],
+    "ifcfacesurface": [
+        "bounds",
+        "facesurface",
+        "samesense"
+    ],
+    "ifcfacetedbrep": [
+        "outer"
+    ],
+    "ifcfacetedbrepwithvoids": [
+        "outer",
+        "voids"
+    ],
+    "ifcfailureconnectioncondition": [
+        "name",
+        "tensionfailurex",
+        "tensionfailurey",
+        "tensionfailurez",
+        "compressionfailurex",
+        "compressionfailurey",
+        "compressionfailurez"
+    ],
+    "ifcfan": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfantype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcfastener": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfastenertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcfeatureelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcfeatureelementaddition": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcfeatureelementsubtraction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcfillareastyle": [
+        "name",
+        "fillstyles",
+        "modelordraughting"
+    ],
+    "ifcfillareastylehatching": [
+        "hatchlineappearance",
+        "startofnexthatchline",
+        "pointofreferencehatchline",
+        "patternstart",
+        "hatchlineangle"
+    ],
+    "ifcfillareastyletiles": [
+        "tilingpattern",
+        "tiles",
+        "tilingscale"
+    ],
+    "ifcfilter": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfiltertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcfiresuppressionterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfiresuppressionterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcfixedreferencesweptareasolid": [
+        "sweptarea",
+        "position",
+        "directrix",
+        "startparam",
+        "endparam",
+        "fixedreference"
+    ],
+    "ifcflowcontroller": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowcontrollertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowfitting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowfittingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowinstrument": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcflowinstrumenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcflowmeter": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcflowmetertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcflowmovingdevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowmovingdevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowsegment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowsegmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowstoragedevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowstoragedevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcflowtreatmentdevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcflowtreatmentdevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcfooting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfootingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcfurnishingelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcfurnishingelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcfurniture": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcfurnituretype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "assemblyplace",
+        "predefinedtype"
+    ],
+    "ifcgeographicelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcgeographicelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcgeometriccurveset": [
+        "elements"
+    ],
+    "ifcgeometricrepresentationcontext": [
+        "contextidentifier",
+        "contexttype",
+        "coordinatespacedimension",
+        "precision",
+        "worldcoordinatesystem",
+        "truenorth"
+    ],
+    "ifcgeometricrepresentationsubcontext": [
+        "contextidentifier",
+        "contexttype",
+        "coordinatespacedimension",
+        "precision",
+        "worldcoordinatesystem",
+        "truenorth",
+        "parentcontext",
+        "targetscale",
+        "targetview",
+        "userdefinedtargetview"
+    ],
+    "ifcgeometricset": [
+        "elements"
+    ],
+    "ifcgrid": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "uaxes",
+        "vaxes",
+        "waxes",
+        "predefinedtype"
+    ],
+    "ifcgridaxis": [
+        "axistag",
+        "axiscurve",
+        "samesense"
+    ],
+    "ifcgridplacement": [
+        "placementlocation",
+        "placementrefdirection"
+    ],
+    "ifcgroup": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype"
+    ],
+    "ifchalfspacesolid": [
+        "basesurface",
+        "agreementflag"
+    ],
+    "ifcheatexchanger": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcheatexchangertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifchumidifier": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifchumidifiertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcimagetexture": [
+        "repeats",
+        "repeatt",
+        "mode",
+        "texturetransform",
+        "parameter",
+        "urlreference"
+    ],
+    "ifcindexedcolourmap": [
+        "mappedto",
+        "opacity",
+        "colours",
+        "colourindex"
+    ],
+    "ifcindexedpolycurve": [
+        "points",
+        "segments",
+        "selfintersect"
+    ],
+    "ifcindexedpolygonalface": [
+        "coordindex"
+    ],
+    "ifcindexedpolygonalfacewithvoids": [
+        "coordindex",
+        "innercoordindices"
+    ],
+    "ifcindexedtexturemap": [
+        "maps",
+        "mappedto",
+        "texcoords"
+    ],
+    "ifcindexedtriangletexturemap": [
+        "maps",
+        "mappedto",
+        "texcoords",
+        "texcoordindex"
+    ],
+    "ifcinterceptor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcinterceptortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcintersectioncurve": [
+        "curve3d",
+        "associatedgeometry",
+        "masterrepresentation"
+    ],
+    "ifcinventory": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "predefinedtype",
+        "jurisdiction",
+        "responsiblepersons",
+        "lastupdatedate",
+        "currentvalue",
+        "originalvalue"
+    ],
+    "ifcirregulartimeseries": [
+        "name",
+        "description",
+        "starttime",
+        "endtime",
+        "timeseriesdatatype",
+        "dataorigin",
+        "userdefineddataorigin",
+        "unit",
+        "values"
+    ],
+    "ifcirregulartimeseriesvalue": [
+        "timestamp",
+        "listvalues"
+    ],
+    "ifcishapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "overallwidth",
+        "overalldepth",
+        "webthickness",
+        "flangethickness",
+        "filletradius",
+        "flangeedgeradius",
+        "flangeslope"
+    ],
+    "ifcjunctionbox": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcjunctionboxtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifclaborresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifclaborresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifclagtime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "lagvalue",
+        "durationtype"
+    ],
+    "ifclamp": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifclamptype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifclibraryinformation": [
+        "name",
+        "version",
+        "publisher",
+        "versiondate",
+        "location",
+        "description"
+    ],
+    "ifclibraryreference": [
+        "location",
+        "identification",
+        "name",
+        "description",
+        "language",
+        "referencedlibrary"
+    ],
+    "ifclightdistributiondata": [
+        "mainplaneangle",
+        "secondaryplaneangle",
+        "luminousintensity"
+    ],
+    "ifclightfixture": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifclightfixturetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifclightintensitydistribution": [
+        "lightdistributioncurve",
+        "distributiondata"
+    ],
+    "ifclightsource": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity"
+    ],
+    "ifclightsourceambient": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity"
+    ],
+    "ifclightsourcedirectional": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity",
+        "orientation"
+    ],
+    "ifclightsourcegoniometric": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity",
+        "position",
+        "colourappearance",
+        "colourtemperature",
+        "luminousflux",
+        "lightemissionsource",
+        "lightdistributiondatasource"
+    ],
+    "ifclightsourcepositional": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity",
+        "position",
+        "radius",
+        "constantattenuation",
+        "distanceattenuation",
+        "quadricattenuation"
+    ],
+    "ifclightsourcespot": [
+        "name",
+        "lightcolour",
+        "ambientintensity",
+        "intensity",
+        "position",
+        "radius",
+        "constantattenuation",
+        "distanceattenuation",
+        "quadricattenuation",
+        "orientation",
+        "concentrationexponent",
+        "spreadangle",
+        "beamwidthangle"
+    ],
+    "ifcline": [
+        "pnt",
+        "dir"
+    ],
+    "ifclocalplacement": [
+        "placementrelto",
+        "relativeplacement"
+    ],
+    "ifclshapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "depth",
+        "width",
+        "thickness",
+        "filletradius",
+        "edgeradius",
+        "legslope"
+    ],
+    "ifcmanifoldsolidbrep": [
+        "outer"
+    ],
+    "ifcmapconversion": [
+        "sourcecrs",
+        "targetcrs",
+        "eastings",
+        "northings",
+        "orthogonalheight",
+        "xaxisabscissa",
+        "xaxisordinate",
+        "scale"
+    ],
+    "ifcmappeditem": [
+        "mappingsource",
+        "mappingtarget"
+    ],
+    "ifcmaterial": [
+        "name",
+        "description",
+        "category"
+    ],
+    "ifcmaterialclassificationrelationship": [
+        "materialclassifications",
+        "classifiedmaterial"
+    ],
+    "ifcmaterialconstituent": [
+        "name",
+        "description",
+        "material",
+        "fraction",
+        "category"
+    ],
+    "ifcmaterialconstituentset": [
+        "name",
+        "description",
+        "materialconstituents"
+    ],
+    "ifcmaterialdefinitionrepresentation": [
+        "name",
+        "description",
+        "representations",
+        "representedmaterial"
+    ],
+    "ifcmateriallayer": [
+        "material",
+        "layerthickness",
+        "isventilated",
+        "name",
+        "description",
+        "category",
+        "priority"
+    ],
+    "ifcmateriallayerset": [
+        "materiallayers",
+        "layersetname",
+        "description"
+    ],
+    "ifcmateriallayersetusage": [
+        "forlayerset",
+        "layersetdirection",
+        "directionsense",
+        "offsetfromreferenceline",
+        "referenceextent"
+    ],
+    "ifcmateriallayerwithoffsets": [
+        "material",
+        "layerthickness",
+        "isventilated",
+        "name",
+        "description",
+        "category",
+        "priority",
+        "offsetdirection",
+        "offsetvalues"
+    ],
+    "ifcmateriallist": [
+        "materials"
+    ],
+    "ifcmaterialprofile": [
+        "name",
+        "description",
+        "material",
+        "profile",
+        "priority",
+        "category"
+    ],
+    "ifcmaterialprofileset": [
+        "name",
+        "description",
+        "materialprofiles",
+        "compositeprofile"
+    ],
+    "ifcmaterialprofilesetusage": [
+        "forprofileset",
+        "cardinalpoint",
+        "referenceextent"
+    ],
+    "ifcmaterialprofilesetusagetapering": [
+        "forprofileset",
+        "cardinalpoint",
+        "referenceextent",
+        "forprofileendset",
+        "cardinalendpoint"
+    ],
+    "ifcmaterialprofilewithoffsets": [
+        "name",
+        "description",
+        "material",
+        "profile",
+        "priority",
+        "category",
+        "offsetvalues"
+    ],
+    "ifcmaterialproperties": [
+        "name",
+        "description",
+        "properties",
+        "material"
+    ],
+    "ifcmaterialrelationship": [
+        "name",
+        "description",
+        "relatingmaterial",
+        "relatedmaterials",
+        "expression"
+    ],
+    "ifcmeasurewithunit": [
+        "valuecomponent",
+        "unitcomponent"
+    ],
+    "ifcmechanicalfastener": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "nominaldiameter",
+        "nominallength",
+        "predefinedtype"
+    ],
+    "ifcmechanicalfastenertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "nominaldiameter",
+        "nominallength"
+    ],
+    "ifcmedicaldevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcmedicaldevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcmember": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcmemberstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcmembertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcmetric": [
+        "name",
+        "description",
+        "constraintgrade",
+        "constraintsource",
+        "creatingactor",
+        "creationtime",
+        "userdefinedgrade",
+        "benchmark",
+        "valuesource",
+        "datavalue",
+        "referencepath"
+    ],
+    "ifcmirroredprofiledef": [
+        "profiletype",
+        "profilename",
+        "parentprofile",
+        "operator",
+        "label"
+    ],
+    "ifcmonetaryunit": [
+        "currency"
+    ],
+    "ifcmotorconnection": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcmotorconnectiontype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcnamedunit": [
+        "dimensions",
+        "unittype"
+    ],
+    "ifcobject": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype"
+    ],
+    "ifcobjectdefinition": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcobjective": [
+        "name",
+        "description",
+        "constraintgrade",
+        "constraintsource",
+        "creatingactor",
+        "creationtime",
+        "userdefinedgrade",
+        "benchmarkvalues",
+        "logicalaggregator",
+        "objectivequalifier",
+        "userdefinedqualifier"
+    ],
+    "ifcoccupant": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "theactor",
+        "predefinedtype"
+    ],
+    "ifcoffsetcurve2d": [
+        "basiscurve",
+        "distance",
+        "selfintersect"
+    ],
+    "ifcoffsetcurve3d": [
+        "basiscurve",
+        "distance",
+        "selfintersect",
+        "refdirection"
+    ],
+    "ifcopeningelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcopeningstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcopenshell": [
+        "cfsfaces"
+    ],
+    "ifcorganization": [
+        "identification",
+        "name",
+        "description",
+        "roles",
+        "addresses"
+    ],
+    "ifcorganizationrelationship": [
+        "name",
+        "description",
+        "relatingorganization",
+        "relatedorganizations"
+    ],
+    "ifcorientededge": [
+        "edgestart",
+        "edgeend",
+        "edgeelement",
+        "orientation"
+    ],
+    "ifcouterboundarycurve": [
+        "segments",
+        "selfintersect"
+    ],
+    "ifcoutlet": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcoutlettype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcownerhistory": [
+        "owninguser",
+        "owningapplication",
+        "state",
+        "changeaction",
+        "lastmodifieddate",
+        "lastmodifyinguser",
+        "lastmodifyingapplication",
+        "creationdate"
+    ],
+    "ifcparameterizedprofiledef": [
+        "profiletype",
+        "profilename",
+        "position"
+    ],
+    "ifcpath": [
+        "edgelist"
+    ],
+    "ifcpcurve": [
+        "basissurface",
+        "referencecurve"
+    ],
+    "ifcperformancehistory": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "lifecyclephase",
+        "predefinedtype"
+    ],
+    "ifcpermeablecoveringproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "operationtype",
+        "panelposition",
+        "framedepth",
+        "framethickness",
+        "shapeaspectstyle"
+    ],
+    "ifcpermit": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "predefinedtype",
+        "status",
+        "longdescription"
+    ],
+    "ifcperson": [
+        "identification",
+        "familyname",
+        "givenname",
+        "middlenames",
+        "prefixtitles",
+        "suffixtitles",
+        "roles",
+        "addresses"
+    ],
+    "ifcpersonandorganization": [
+        "theperson",
+        "theorganization",
+        "roles"
+    ],
+    "ifcphysicalcomplexquantity": [
+        "name",
+        "description",
+        "hasquantities",
+        "discrimination",
+        "quality",
+        "usage"
+    ],
+    "ifcphysicalquantity": [
+        "name",
+        "description"
+    ],
+    "ifcphysicalsimplequantity": [
+        "name",
+        "description",
+        "unit"
+    ],
+    "ifcpile": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype",
+        "constructiontype"
+    ],
+    "ifcpiletype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcpipefitting": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcpipefittingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcpipesegment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcpipesegmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcpixeltexture": [
+        "repeats",
+        "repeatt",
+        "mode",
+        "texturetransform",
+        "parameter",
+        "width",
+        "height",
+        "colourcomponents",
+        "pixel"
+    ],
+    "ifcplacement": [
+        "location"
+    ],
+    "ifcplanarbox": [
+        "sizeinx",
+        "sizeiny",
+        "placement"
+    ],
+    "ifcplanarextent": [
+        "sizeinx",
+        "sizeiny"
+    ],
+    "ifcplane": [
+        "position"
+    ],
+    "ifcplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcplatestandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcplatetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcpointoncurve": [
+        "basiscurve",
+        "pointparameter"
+    ],
+    "ifcpointonsurface": [
+        "basissurface",
+        "pointparameteru",
+        "pointparameterv"
+    ],
+    "ifcpolygonalboundedhalfspace": [
+        "basesurface",
+        "agreementflag",
+        "position",
+        "polygonalboundary"
+    ],
+    "ifcpolygonalfaceset": [
+        "coordinates",
+        "closed",
+        "faces",
+        "pnindex"
+    ],
+    "ifcpolyline": [
+        "points"
+    ],
+    "ifcpolyloop": [
+        "polygon"
+    ],
+    "ifcport": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation"
+    ],
+    "ifcpostaladdress": [
+        "purpose",
+        "description",
+        "userdefinedpurpose",
+        "internallocation",
+        "addresslines",
+        "postalbox",
+        "town",
+        "region",
+        "postalcode",
+        "country"
+    ],
+    "ifcpredefinedcolour": [
+        "name"
+    ],
+    "ifcpredefinedcurvefont": [
+        "name"
+    ],
+    "ifcpredefineditem": [
+        "name"
+    ],
+    "ifcpredefinedpropertyset": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcpredefinedtextfont": [
+        "name"
+    ],
+    "ifcpresentationlayerassignment": [
+        "name",
+        "description",
+        "assigneditems",
+        "identifier"
+    ],
+    "ifcpresentationlayerwithstyle": [
+        "name",
+        "description",
+        "assigneditems",
+        "identifier",
+        "layeron",
+        "layerfrozen",
+        "layerblocked",
+        "layerstyles"
+    ],
+    "ifcpresentationstyle": [
+        "name"
+    ],
+    "ifcpresentationstyleassignment": [
+        "styles"
+    ],
+    "ifcprocedure": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "predefinedtype"
+    ],
+    "ifcproceduretype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "processtype",
+        "predefinedtype"
+    ],
+    "ifcprocess": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription"
+    ],
+    "ifcproduct": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation"
+    ],
+    "ifcproductdefinitionshape": [
+        "name",
+        "description",
+        "representations"
+    ],
+    "ifcproductrepresentation": [
+        "name",
+        "description",
+        "representations"
+    ],
+    "ifcprofiledef": [
+        "profiletype",
+        "profilename"
+    ],
+    "ifcprofileproperties": [
+        "name",
+        "description",
+        "properties",
+        "profiledefinition"
+    ],
+    "ifcproject": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname",
+        "phase",
+        "representationcontexts",
+        "unitsincontext"
+    ],
+    "ifcprojectedcrs": [
+        "name",
+        "description",
+        "geodeticdatum",
+        "verticaldatum",
+        "mapprojection",
+        "mapzone",
+        "mapunit"
+    ],
+    "ifcprojectionelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcprojectlibrary": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname",
+        "phase",
+        "representationcontexts",
+        "unitsincontext"
+    ],
+    "ifcprojectorder": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "predefinedtype",
+        "status",
+        "longdescription"
+    ],
+    "ifcproperty": [
+        "name",
+        "description"
+    ],
+    "ifcpropertyboundedvalue": [
+        "name",
+        "description",
+        "upperboundvalue",
+        "lowerboundvalue",
+        "unit",
+        "setpointvalue"
+    ],
+    "ifcpropertydefinition": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcpropertydependencyrelationship": [
+        "name",
+        "description",
+        "dependingproperty",
+        "dependantproperty",
+        "expression"
+    ],
+    "ifcpropertyenumeratedvalue": [
+        "name",
+        "description",
+        "enumerationvalues",
+        "enumerationreference"
+    ],
+    "ifcpropertyenumeration": [
+        "name",
+        "enumerationvalues",
+        "unit"
+    ],
+    "ifcpropertylistvalue": [
+        "name",
+        "description",
+        "listvalues",
+        "unit"
+    ],
+    "ifcpropertyreferencevalue": [
+        "name",
+        "description",
+        "usagename",
+        "propertyreference"
+    ],
+    "ifcpropertyset": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "hasproperties"
+    ],
+    "ifcpropertysetdefinition": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcpropertysettemplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "templatetype",
+        "applicableentity",
+        "haspropertytemplates"
+    ],
+    "ifcpropertysinglevalue": [
+        "name",
+        "description",
+        "nominalvalue",
+        "unit"
+    ],
+    "ifcpropertytablevalue": [
+        "name",
+        "description",
+        "definingvalues",
+        "definedvalues",
+        "expression",
+        "definingunit",
+        "definedunit",
+        "curveinterpolation"
+    ],
+    "ifcpropertytemplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcpropertytemplatedefinition": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcprotectivedevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcprotectivedevicetrippingunit": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcprotectivedevicetrippingunittype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcprotectivedevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcproxy": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "proxytype",
+        "tag"
+    ],
+    "ifcpump": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcpumptype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcquantityarea": [
+        "name",
+        "description",
+        "unit",
+        "areavalue",
+        "formula"
+    ],
+    "ifcquantitycount": [
+        "name",
+        "description",
+        "unit",
+        "countvalue",
+        "formula"
+    ],
+    "ifcquantitylength": [
+        "name",
+        "description",
+        "unit",
+        "lengthvalue",
+        "formula"
+    ],
+    "ifcquantityset": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcquantitytime": [
+        "name",
+        "description",
+        "unit",
+        "timevalue",
+        "formula"
+    ],
+    "ifcquantityvolume": [
+        "name",
+        "description",
+        "unit",
+        "volumevalue",
+        "formula"
+    ],
+    "ifcquantityweight": [
+        "name",
+        "description",
+        "unit",
+        "weightvalue",
+        "formula"
+    ],
+    "ifcrailing": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcrailingtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcramp": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcrampflight": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcrampflighttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcramptype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcrationalbsplinecurvewithknots": [
+        "degree",
+        "controlpointslist",
+        "curveform",
+        "closedcurve",
+        "selfintersect",
+        "knotmultiplicities",
+        "knots",
+        "knotspec",
+        "weightsdata"
+    ],
+    "ifcrationalbsplinesurfacewithknots": [
+        "udegree",
+        "vdegree",
+        "controlpointslist",
+        "surfaceform",
+        "uclosed",
+        "vclosed",
+        "selfintersect",
+        "umultiplicities",
+        "vmultiplicities",
+        "uknots",
+        "vknots",
+        "knotspec",
+        "weightsdata"
+    ],
+    "ifcrectanglehollowprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "xdim",
+        "ydim",
+        "wallthickness",
+        "innerfilletradius",
+        "outerfilletradius"
+    ],
+    "ifcrectangleprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "xdim",
+        "ydim"
+    ],
+    "ifcrectangularpyramid": [
+        "position",
+        "xlength",
+        "ylength",
+        "height"
+    ],
+    "ifcrectangulartrimmedsurface": [
+        "basissurface",
+        "u1",
+        "v1",
+        "u2",
+        "v2",
+        "usense",
+        "vsense"
+    ],
+    "ifcrecurrencepattern": [
+        "recurrencetype",
+        "daycomponent",
+        "weekdaycomponent",
+        "monthcomponent",
+        "position",
+        "interval",
+        "occurrences",
+        "timeperiods"
+    ],
+    "ifcreference": [
+        "typeidentifier",
+        "attributeidentifier",
+        "instancename",
+        "listpositions",
+        "innerreference"
+    ],
+    "ifcregulartimeseries": [
+        "name",
+        "description",
+        "starttime",
+        "endtime",
+        "timeseriesdatatype",
+        "dataorigin",
+        "userdefineddataorigin",
+        "unit",
+        "timestep",
+        "values"
+    ],
+    "ifcreinforcementbarproperties": [
+        "totalcrosssectionarea",
+        "steelgrade",
+        "barsurface",
+        "effectivedepth",
+        "nominalbardiameter",
+        "barcount"
+    ],
+    "ifcreinforcementdefinitionproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "definitiontype",
+        "reinforcementsectiondefinitions"
+    ],
+    "ifcreinforcingbar": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "steelgrade",
+        "nominaldiameter",
+        "crosssectionarea",
+        "barlength",
+        "predefinedtype",
+        "barsurface"
+    ],
+    "ifcreinforcingbartype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "nominaldiameter",
+        "crosssectionarea",
+        "barlength",
+        "barsurface",
+        "bendingshapecode",
+        "bendingparameters"
+    ],
+    "ifcreinforcingelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "steelgrade"
+    ],
+    "ifcreinforcingelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcreinforcingmesh": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "steelgrade",
+        "meshlength",
+        "meshwidth",
+        "longitudinalbarnominaldiameter",
+        "transversebarnominaldiameter",
+        "longitudinalbarcrosssectionarea",
+        "transversebarcrosssectionarea",
+        "longitudinalbarspacing",
+        "transversebarspacing",
+        "predefinedtype"
+    ],
+    "ifcreinforcingmeshtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "meshlength",
+        "meshwidth",
+        "longitudinalbarnominaldiameter",
+        "transversebarnominaldiameter",
+        "longitudinalbarcrosssectionarea",
+        "transversebarcrosssectionarea",
+        "longitudinalbarspacing",
+        "transversebarspacing",
+        "bendingshapecode",
+        "bendingparameters"
+    ],
+    "ifcrelaggregates": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingobject",
+        "relatedobjects"
+    ],
+    "ifcrelassigns": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype"
+    ],
+    "ifcrelassignstoactor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatingactor",
+        "actingrole"
+    ],
+    "ifcrelassignstocontrol": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatingcontrol"
+    ],
+    "ifcrelassignstogroup": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatinggroup"
+    ],
+    "ifcrelassignstogroupbyfactor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatinggroup",
+        "factor"
+    ],
+    "ifcrelassignstoprocess": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatingprocess",
+        "quantityinprocess"
+    ],
+    "ifcrelassignstoproduct": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatingproduct"
+    ],
+    "ifcrelassignstoresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatedobjectstype",
+        "relatingresource"
+    ],
+    "ifcrelassociates": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects"
+    ],
+    "ifcrelassociatesapproval": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingapproval"
+    ],
+    "ifcrelassociatesclassification": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingclassification"
+    ],
+    "ifcrelassociatesconstraint": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "intent",
+        "relatingconstraint"
+    ],
+    "ifcrelassociatesdocument": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingdocument"
+    ],
+    "ifcrelassociateslibrary": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatinglibrary"
+    ],
+    "ifcrelassociatesmaterial": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingmaterial"
+    ],
+    "ifcrelationship": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcrelconnects": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcrelconnectselements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "connectiongeometry",
+        "relatingelement",
+        "relatedelement"
+    ],
+    "ifcrelconnectspathelements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "connectiongeometry",
+        "relatingelement",
+        "relatedelement",
+        "relatingpriorities",
+        "relatedpriorities",
+        "relatedconnectiontype",
+        "relatingconnectiontype"
+    ],
+    "ifcrelconnectsports": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingport",
+        "relatedport",
+        "realizingelement"
+    ],
+    "ifcrelconnectsporttoelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingport",
+        "relatedelement"
+    ],
+    "ifcrelconnectsstructuralactivity": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingelement",
+        "relatedstructuralactivity"
+    ],
+    "ifcrelconnectsstructuralmember": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingstructuralmember",
+        "relatedstructuralconnection",
+        "appliedcondition",
+        "additionalconditions",
+        "supportedlength",
+        "conditioncoordinatesystem"
+    ],
+    "ifcrelconnectswitheccentricity": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingstructuralmember",
+        "relatedstructuralconnection",
+        "appliedcondition",
+        "additionalconditions",
+        "supportedlength",
+        "conditioncoordinatesystem",
+        "connectionconstraint"
+    ],
+    "ifcrelconnectswithrealizingelements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "connectiongeometry",
+        "relatingelement",
+        "relatedelement",
+        "realizingelements",
+        "connectiontype"
+    ],
+    "ifcrelcontainedinspatialstructure": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedelements",
+        "relatingstructure"
+    ],
+    "ifcrelcoversbldgelements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingbuildingelement",
+        "relatedcoverings"
+    ],
+    "ifcrelcoversspaces": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingspace",
+        "relatedcoverings"
+    ],
+    "ifcreldeclares": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingcontext",
+        "relateddefinitions"
+    ],
+    "ifcreldecomposes": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcreldefines": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcreldefinesbyobject": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingobject"
+    ],
+    "ifcreldefinesbyproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingpropertydefinition"
+    ],
+    "ifcreldefinesbytemplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedpropertysets",
+        "relatingtemplate"
+    ],
+    "ifcreldefinesbytype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedobjects",
+        "relatingtype"
+    ],
+    "ifcrelfillselement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingopeningelement",
+        "relatedbuildingelement"
+    ],
+    "ifcrelflowcontrolelements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedcontrolelements",
+        "relatingflowelement"
+    ],
+    "ifcrelinterfereselements": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingelement",
+        "relatedelement",
+        "interferencegeometry",
+        "interferencetype",
+        "impliedorder"
+    ],
+    "ifcrelnests": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingobject",
+        "relatedobjects"
+    ],
+    "ifcrelprojectselement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingelement",
+        "relatedfeatureelement"
+    ],
+    "ifcrelreferencedinspatialstructure": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatedelements",
+        "relatingstructure"
+    ],
+    "ifcrelsequence": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingprocess",
+        "relatedprocess",
+        "timelag",
+        "sequencetype",
+        "userdefinedsequencetype"
+    ],
+    "ifcrelservicesbuildings": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingsystem",
+        "relatedbuildings"
+    ],
+    "ifcrelspaceboundary": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingspace",
+        "relatedbuildingelement",
+        "connectiongeometry",
+        "physicalorvirtualboundary",
+        "internalorexternalboundary"
+    ],
+    "ifcrelspaceboundary1stlevel": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingspace",
+        "relatedbuildingelement",
+        "connectiongeometry",
+        "physicalorvirtualboundary",
+        "internalorexternalboundary",
+        "parentboundary"
+    ],
+    "ifcrelspaceboundary2ndlevel": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingspace",
+        "relatedbuildingelement",
+        "connectiongeometry",
+        "physicalorvirtualboundary",
+        "internalorexternalboundary",
+        "parentboundary",
+        "correspondingboundary"
+    ],
+    "ifcrelvoidselement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "relatingbuildingelement",
+        "relatedopeningelement"
+    ],
+    "ifcreparametrisedcompositecurvesegment": [
+        "transition",
+        "samesense",
+        "parentcurve",
+        "paramlength"
+    ],
+    "ifcrepresentation": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifcrepresentationcontext": [
+        "contextidentifier",
+        "contexttype"
+    ],
+    "ifcrepresentationmap": [
+        "mappingorigin",
+        "mappedrepresentation"
+    ],
+    "ifcresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription"
+    ],
+    "ifcresourceapprovalrelationship": [
+        "name",
+        "description",
+        "relatedresourceobjects",
+        "relatingapproval"
+    ],
+    "ifcresourceconstraintrelationship": [
+        "name",
+        "description",
+        "relatingconstraint",
+        "relatedresourceobjects"
+    ],
+    "ifcresourcelevelrelationship": [
+        "name",
+        "description"
+    ],
+    "ifcresourcetime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "schedulework",
+        "scheduleusage",
+        "schedulestart",
+        "schedulefinish",
+        "schedulecontour",
+        "levelingdelay",
+        "isoverallocated",
+        "statustime",
+        "actualwork",
+        "actualusage",
+        "actualstart",
+        "actualfinish",
+        "remainingwork",
+        "remainingusage",
+        "completion"
+    ],
+    "ifcrevolvedareasolid": [
+        "sweptarea",
+        "position",
+        "axis",
+        "angle"
+    ],
+    "ifcrevolvedareasolidtapered": [
+        "sweptarea",
+        "position",
+        "axis",
+        "angle",
+        "endsweptarea"
+    ],
+    "ifcrightcircularcone": [
+        "position",
+        "height",
+        "bottomradius"
+    ],
+    "ifcrightcircularcylinder": [
+        "position",
+        "height",
+        "radius"
+    ],
+    "ifcroof": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcrooftype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcroot": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description"
+    ],
+    "ifcroundedrectangleprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "xdim",
+        "ydim",
+        "roundingradius"
+    ],
+    "ifcsanitaryterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcsanitaryterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcschedulingtime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin"
+    ],
+    "ifcseamcurve": [
+        "curve3d",
+        "associatedgeometry",
+        "masterrepresentation"
+    ],
+    "ifcsectionedspine": [
+        "spinecurve",
+        "crosssections",
+        "crosssectionpositions"
+    ],
+    "ifcsectionproperties": [
+        "sectiontype",
+        "startprofile",
+        "endprofile"
+    ],
+    "ifcsectionreinforcementproperties": [
+        "longitudinalstartposition",
+        "longitudinalendposition",
+        "transverseposition",
+        "reinforcementrole",
+        "sectiondefinition",
+        "crosssectionreinforcementdefinitions"
+    ],
+    "ifcsensor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcsensortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcshadingdevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcshadingdevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcshapeaspect": [
+        "shaperepresentations",
+        "name",
+        "description",
+        "productdefinitional",
+        "partofproductdefinitionshape"
+    ],
+    "ifcshapemodel": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifcshaperepresentation": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifcshellbasedsurfacemodel": [
+        "sbsmboundary"
+    ],
+    "ifcsimpleproperty": [
+        "name",
+        "description"
+    ],
+    "ifcsimplepropertytemplate": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "templatetype",
+        "primarymeasuretype",
+        "secondarymeasuretype",
+        "enumerators",
+        "primaryunit",
+        "secondaryunit",
+        "expression",
+        "accessstate"
+    ],
+    "ifcsite": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "compositiontype",
+        "reflatitude",
+        "reflongitude",
+        "refelevation",
+        "landtitlenumber",
+        "siteaddress"
+    ],
+    "ifcsiunit": [
+        "dimensions",
+        "unittype",
+        "prefix",
+        "name"
+    ],
+    "ifcslab": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcslabelementedcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcslabstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcslabtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcslippageconnectioncondition": [
+        "name",
+        "slippagex",
+        "slippagey",
+        "slippagez"
+    ],
+    "ifcsolardevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcsolardevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcspace": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "compositiontype",
+        "predefinedtype",
+        "elevationwithflooring"
+    ],
+    "ifcspaceheater": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcspaceheatertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcspacetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "longname"
+    ],
+    "ifcspatialelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname"
+    ],
+    "ifcspatialelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcspatialstructureelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "compositiontype"
+    ],
+    "ifcspatialstructureelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype"
+    ],
+    "ifcspatialzone": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "longname",
+        "predefinedtype"
+    ],
+    "ifcspatialzonetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "longname"
+    ],
+    "ifcsphere": [
+        "position",
+        "radius"
+    ],
+    "ifcsphericalsurface": [
+        "position",
+        "radius"
+    ],
+    "ifcstackterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcstackterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcstair": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcstairflight": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "numberofrisers",
+        "numberoftreads",
+        "riserheight",
+        "treadlength",
+        "predefinedtype"
+    ],
+    "ifcstairflighttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcstairtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcstructuralaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload"
+    ],
+    "ifcstructuralactivity": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal"
+    ],
+    "ifcstructuralanalysismodel": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "predefinedtype",
+        "orientationof2dplane",
+        "loadedby",
+        "hasresults",
+        "sharedplacement"
+    ],
+    "ifcstructuralconnection": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedcondition"
+    ],
+    "ifcstructuralconnectioncondition": [
+        "name"
+    ],
+    "ifcstructuralcurveaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload",
+        "projectedortrue",
+        "predefinedtype"
+    ],
+    "ifcstructuralcurveconnection": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedcondition",
+        "axis"
+    ],
+    "ifcstructuralcurvemember": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "predefinedtype",
+        "axis"
+    ],
+    "ifcstructuralcurvemembervarying": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "predefinedtype",
+        "axis"
+    ],
+    "ifcstructuralcurvereaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "predefinedtype"
+    ],
+    "ifcstructuralitem": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation"
+    ],
+    "ifcstructurallinearaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload",
+        "projectedortrue",
+        "predefinedtype"
+    ],
+    "ifcstructuralload": [
+        "name"
+    ],
+    "ifcstructuralloadcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "predefinedtype",
+        "actiontype",
+        "actionsource",
+        "coefficient",
+        "purpose",
+        "selfweightcoefficients"
+    ],
+    "ifcstructuralloadconfiguration": [
+        "name",
+        "values",
+        "locations"
+    ],
+    "ifcstructuralloadgroup": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "predefinedtype",
+        "actiontype",
+        "actionsource",
+        "coefficient",
+        "purpose"
+    ],
+    "ifcstructuralloadlinearforce": [
+        "name",
+        "linearforcex",
+        "linearforcey",
+        "linearforcez",
+        "linearmomentx",
+        "linearmomenty",
+        "linearmomentz"
+    ],
+    "ifcstructuralloadorresult": [
+        "name"
+    ],
+    "ifcstructuralloadplanarforce": [
+        "name",
+        "planarforcex",
+        "planarforcey",
+        "planarforcez"
+    ],
+    "ifcstructuralloadsingledisplacement": [
+        "name",
+        "displacementx",
+        "displacementy",
+        "displacementz",
+        "rotationaldisplacementrx",
+        "rotationaldisplacementry",
+        "rotationaldisplacementrz"
+    ],
+    "ifcstructuralloadsingledisplacementdistortion": [
+        "name",
+        "displacementx",
+        "displacementy",
+        "displacementz",
+        "rotationaldisplacementrx",
+        "rotationaldisplacementry",
+        "rotationaldisplacementrz",
+        "distortion"
+    ],
+    "ifcstructuralloadsingleforce": [
+        "name",
+        "forcex",
+        "forcey",
+        "forcez",
+        "momentx",
+        "momenty",
+        "momentz"
+    ],
+    "ifcstructuralloadsingleforcewarping": [
+        "name",
+        "forcex",
+        "forcey",
+        "forcez",
+        "momentx",
+        "momenty",
+        "momentz",
+        "warpingmoment"
+    ],
+    "ifcstructuralloadstatic": [
+        "name"
+    ],
+    "ifcstructuralloadtemperature": [
+        "name",
+        "deltatconstant",
+        "deltaty",
+        "deltatz"
+    ],
+    "ifcstructuralmember": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation"
+    ],
+    "ifcstructuralplanaraction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload",
+        "projectedortrue",
+        "predefinedtype"
+    ],
+    "ifcstructuralpointaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload"
+    ],
+    "ifcstructuralpointconnection": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedcondition",
+        "conditioncoordinatesystem"
+    ],
+    "ifcstructuralpointreaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal"
+    ],
+    "ifcstructuralreaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal"
+    ],
+    "ifcstructuralresultgroup": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "theorytype",
+        "resultforloadgroup",
+        "islinear"
+    ],
+    "ifcstructuralsurfaceaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "destabilizingload",
+        "projectedortrue",
+        "predefinedtype"
+    ],
+    "ifcstructuralsurfaceconnection": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedcondition"
+    ],
+    "ifcstructuralsurfacemember": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "predefinedtype",
+        "thickness"
+    ],
+    "ifcstructuralsurfacemembervarying": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "predefinedtype",
+        "thickness"
+    ],
+    "ifcstructuralsurfacereaction": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "appliedload",
+        "globalorlocal",
+        "predefinedtype"
+    ],
+    "ifcstyleditem": [
+        "item",
+        "styles",
+        "name"
+    ],
+    "ifcstyledrepresentation": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifcstylemodel": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifcsubcontractresource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "usage",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcsubcontractresourcetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype",
+        "basecosts",
+        "basequantity",
+        "predefinedtype"
+    ],
+    "ifcsubedge": [
+        "edgestart",
+        "edgeend",
+        "parentedge"
+    ],
+    "ifcsurfacecurve": [
+        "curve3d",
+        "associatedgeometry",
+        "masterrepresentation"
+    ],
+    "ifcsurfacecurvesweptareasolid": [
+        "sweptarea",
+        "position",
+        "directrix",
+        "startparam",
+        "endparam",
+        "referencesurface"
+    ],
+    "ifcsurfacefeature": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcsurfaceoflinearextrusion": [
+        "sweptcurve",
+        "position",
+        "extrudeddirection",
+        "depth"
+    ],
+    "ifcsurfaceofrevolution": [
+        "sweptcurve",
+        "position",
+        "axisposition"
+    ],
+    "ifcsurfacereinforcementarea": [
+        "name",
+        "surfacereinforcement1",
+        "surfacereinforcement2",
+        "shearreinforcement"
+    ],
+    "ifcsurfacestyle": [
+        "name",
+        "side",
+        "styles"
+    ],
+    "ifcsurfacestylelighting": [
+        "diffusetransmissioncolour",
+        "diffusereflectioncolour",
+        "transmissioncolour",
+        "reflectancecolour"
+    ],
+    "ifcsurfacestylerefraction": [
+        "refractionindex",
+        "dispersionfactor"
+    ],
+    "ifcsurfacestylerendering": [
+        "surfacecolour",
+        "transparency",
+        "diffusecolour",
+        "transmissioncolour",
+        "diffusetransmissioncolour",
+        "reflectioncolour",
+        "specularcolour",
+        "specularhighlight",
+        "reflectancemethod"
+    ],
+    "ifcsurfacestyleshading": [
+        "surfacecolour",
+        "transparency"
+    ],
+    "ifcsurfacestylewithtextures": [
+        "textures"
+    ],
+    "ifcsurfacetexture": [
+        "repeats",
+        "repeatt",
+        "mode",
+        "texturetransform",
+        "parameter"
+    ],
+    "ifcsweptareasolid": [
+        "sweptarea",
+        "position"
+    ],
+    "ifcsweptdisksolid": [
+        "directrix",
+        "radius",
+        "innerradius",
+        "startparam",
+        "endparam"
+    ],
+    "ifcsweptdisksolidpolygonal": [
+        "directrix",
+        "radius",
+        "innerradius",
+        "startparam",
+        "endparam",
+        "filletradius"
+    ],
+    "ifcsweptsurface": [
+        "sweptcurve",
+        "position"
+    ],
+    "ifcswitchingdevice": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcswitchingdevicetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcsystem": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype"
+    ],
+    "ifcsystemfurnitureelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcsystemfurnitureelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctable": [
+        "name",
+        "rows",
+        "columns"
+    ],
+    "ifctablecolumn": [
+        "identifier",
+        "name",
+        "description",
+        "unit",
+        "referencepath"
+    ],
+    "ifctablerow": [
+        "rowcells",
+        "isheading"
+    ],
+    "ifctank": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifctanktype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctask": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "longdescription",
+        "status",
+        "workmethod",
+        "ismilestone",
+        "priority",
+        "tasktime",
+        "predefinedtype"
+    ],
+    "ifctasktime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "durationtype",
+        "scheduleduration",
+        "schedulestart",
+        "schedulefinish",
+        "earlystart",
+        "earlyfinish",
+        "latestart",
+        "latefinish",
+        "freefloat",
+        "totalfloat",
+        "iscritical",
+        "statustime",
+        "actualduration",
+        "actualstart",
+        "actualfinish",
+        "remainingtime",
+        "completion"
+    ],
+    "ifctasktimerecurring": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "durationtype",
+        "scheduleduration",
+        "schedulestart",
+        "schedulefinish",
+        "earlystart",
+        "earlyfinish",
+        "latestart",
+        "latefinish",
+        "freefloat",
+        "totalfloat",
+        "iscritical",
+        "statustime",
+        "actualduration",
+        "actualstart",
+        "actualfinish",
+        "remainingtime",
+        "completion",
+        "recurrence"
+    ],
+    "ifctasktype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "processtype",
+        "predefinedtype",
+        "workmethod"
+    ],
+    "ifctelecomaddress": [
+        "purpose",
+        "description",
+        "userdefinedpurpose",
+        "telephonenumbers",
+        "facsimilenumbers",
+        "pagernumber",
+        "electronicmailaddresses",
+        "wwwhomepageurl",
+        "messagingids"
+    ],
+    "ifctendon": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "steelgrade",
+        "predefinedtype",
+        "nominaldiameter",
+        "crosssectionarea",
+        "tensionforce",
+        "prestress",
+        "frictioncoefficient",
+        "anchorageslip",
+        "mincurvatureradius"
+    ],
+    "ifctendonanchor": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "steelgrade",
+        "predefinedtype"
+    ],
+    "ifctendonanchortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctendontype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "nominaldiameter",
+        "crosssectionarea",
+        "sheathdiameter"
+    ],
+    "ifctessellatedfaceset": [
+        "coordinates"
+    ],
+    "ifctextliteral": [
+        "literal",
+        "placement",
+        "path"
+    ],
+    "ifctextliteralwithextent": [
+        "literal",
+        "placement",
+        "path",
+        "extent",
+        "boxalignment"
+    ],
+    "ifctextstyle": [
+        "name",
+        "textcharacterappearance",
+        "textstyle",
+        "textfontstyle",
+        "modelordraughting"
+    ],
+    "ifctextstylefontmodel": [
+        "name",
+        "fontfamily",
+        "fontstyle",
+        "fontvariant",
+        "fontweight",
+        "fontsize"
+    ],
+    "ifctextstylefordefinedfont": [
+        "colour",
+        "backgroundcolour"
+    ],
+    "ifctextstyletextmodel": [
+        "textindent",
+        "textalign",
+        "textdecoration",
+        "letterspacing",
+        "wordspacing",
+        "texttransform",
+        "lineheight"
+    ],
+    "ifctexturecoordinate": [
+        "maps"
+    ],
+    "ifctexturecoordinategenerator": [
+        "maps",
+        "mode",
+        "parameter"
+    ],
+    "ifctexturemap": [
+        "maps",
+        "vertices",
+        "mappedto"
+    ],
+    "ifctexturevertex": [
+        "coordinates"
+    ],
+    "ifctexturevertexlist": [
+        "texcoordslist"
+    ],
+    "ifctimeperiod": [
+        "starttime",
+        "endtime"
+    ],
+    "ifctimeseries": [
+        "name",
+        "description",
+        "starttime",
+        "endtime",
+        "timeseriesdatatype",
+        "dataorigin",
+        "userdefineddataorigin",
+        "unit"
+    ],
+    "ifctimeseriesvalue": [
+        "listvalues"
+    ],
+    "ifctopologyrepresentation": [
+        "contextofitems",
+        "representationidentifier",
+        "representationtype",
+        "items"
+    ],
+    "ifctoroidalsurface": [
+        "position",
+        "majorradius",
+        "minorradius"
+    ],
+    "ifctransformer": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifctransformertype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctransportelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifctransportelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctrapeziumprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "bottomxdim",
+        "topxdim",
+        "ydim",
+        "topxoffset"
+    ],
+    "ifctriangulatedfaceset": [
+        "coordinates",
+        "normals",
+        "closed",
+        "coordindex",
+        "pnindex"
+    ],
+    "ifctrimmedcurve": [
+        "basiscurve",
+        "trim1",
+        "trim2",
+        "senseagreement",
+        "masterrepresentation"
+    ],
+    "ifctshapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "depth",
+        "flangewidth",
+        "webthickness",
+        "flangethickness",
+        "filletradius",
+        "flangeedgeradius",
+        "webedgeradius",
+        "webslope",
+        "flangeslope"
+    ],
+    "ifctubebundle": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifctubebundletype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifctypeobject": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets"
+    ],
+    "ifctypeprocess": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "processtype"
+    ],
+    "ifctypeproduct": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag"
+    ],
+    "ifctyperesource": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "identification",
+        "longdescription",
+        "resourcetype"
+    ],
+    "ifcunitarycontrolelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcunitarycontrolelementtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcunitaryequipment": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcunitaryequipmenttype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcunitassignment": [
+        "units"
+    ],
+    "ifcushapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "depth",
+        "flangewidth",
+        "webthickness",
+        "flangethickness",
+        "filletradius",
+        "edgeradius",
+        "flangeslope"
+    ],
+    "ifcvalve": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcvalvetype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcvector": [
+        "orientation",
+        "magnitude"
+    ],
+    "ifcvertexloop": [
+        "loopvertex"
+    ],
+    "ifcvertexpoint": [
+        "vertexgeometry"
+    ],
+    "ifcvibrationisolator": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcvibrationisolatortype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcvirtualelement": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag"
+    ],
+    "ifcvirtualgridintersection": [
+        "intersectingaxes",
+        "offsetdistances"
+    ],
+    "ifcvoidingfeature": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcwall": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcwallelementedcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcwallstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcwalltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcwasteterminal": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "predefinedtype"
+    ],
+    "ifcwasteterminaltype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype"
+    ],
+    "ifcwindow": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "overallheight",
+        "overallwidth",
+        "predefinedtype",
+        "partitioningtype",
+        "userdefinedpartitioningtype"
+    ],
+    "ifcwindowliningproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "liningdepth",
+        "liningthickness",
+        "transomthickness",
+        "mullionthickness",
+        "firsttransomoffset",
+        "secondtransomoffset",
+        "firstmullionoffset",
+        "secondmullionoffset",
+        "shapeaspectstyle",
+        "liningoffset",
+        "liningtopaneloffsetx",
+        "liningtopaneloffsety"
+    ],
+    "ifcwindowpanelproperties": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "operationtype",
+        "panelposition",
+        "framedepth",
+        "framethickness",
+        "shapeaspectstyle"
+    ],
+    "ifcwindowstandardcase": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "objectplacement",
+        "representation",
+        "tag",
+        "overallheight",
+        "overallwidth",
+        "predefinedtype",
+        "partitioningtype",
+        "userdefinedpartitioningtype"
+    ],
+    "ifcwindowstyle": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "constructiontype",
+        "operationtype",
+        "parametertakesprecedence",
+        "sizeable"
+    ],
+    "ifcwindowtype": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "applicableoccurrence",
+        "haspropertysets",
+        "representationmaps",
+        "tag",
+        "elementtype",
+        "predefinedtype",
+        "partitioningtype",
+        "parametertakesprecedence",
+        "userdefinedpartitioningtype"
+    ],
+    "ifcworkcalendar": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "workingtimes",
+        "exceptiontimes",
+        "predefinedtype"
+    ],
+    "ifcworkcontrol": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "creationdate",
+        "creators",
+        "purpose",
+        "duration",
+        "totalfloat",
+        "starttime",
+        "finishtime"
+    ],
+    "ifcworkplan": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "creationdate",
+        "creators",
+        "purpose",
+        "duration",
+        "totalfloat",
+        "starttime",
+        "finishtime",
+        "predefinedtype"
+    ],
+    "ifcworkschedule": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "identification",
+        "creationdate",
+        "creators",
+        "purpose",
+        "duration",
+        "totalfloat",
+        "starttime",
+        "finishtime",
+        "predefinedtype"
+    ],
+    "ifcworktime": [
+        "name",
+        "dataorigin",
+        "userdefineddataorigin",
+        "recurrencepattern",
+        "start",
+        "finish"
+    ],
+    "ifczone": [
+        "globalid",
+        "ownerhistory",
+        "name",
+        "description",
+        "objecttype",
+        "longname"
+    ],
+    "ifczshapeprofiledef": [
+        "profiletype",
+        "profilename",
+        "position",
+        "depth",
+        "flangewidth",
+        "webthickness",
+        "flangethickness",
+        "filletradius",
+        "edgeradius"
+    ]
+}
